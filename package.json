@@ -1,0 +1,24 @@
+{
+  "name": "sendSMS",
+  "version": "1.0.0",
+  "description": "Feature to send SMS out to contacts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/begoodproject/sendSMS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/begoodproject/sendSMS/issues"
+  },
+  "homepage": "https://github.com/begoodproject/sendSMS#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "twilio": "^3.33.2"
+  }
+}
