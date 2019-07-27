@@ -7,5 +7,7 @@ Feature to send SMS out to contacts
 ```
 ACCOUNT_SID="ENTER_TWILIO_ACC_SID"
 AUTH_TOKEN="ENTER_TWILIO_AUTH_TOKEN"
+MYNUMBER="ENTER_YOUR_MOBILE_NUMBER"
+CONTACT1="ENTER_USERS_MOBILE_NUMBER"
 ```
 3. As long as `require('dotenv').config();` has been executed, you should be able to access the values using `process.env.key_name` e.g. `process.env.ACCOUNT_SID`.
